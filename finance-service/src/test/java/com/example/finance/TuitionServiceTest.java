@@ -1,4 +1,4 @@
-package com.n21.finance.service;
+package com.example.finance;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -13,12 +13,6 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-
-import com.n21.finance.dto.CreateTuitionRequest;
-import com.n21.finance.exception.ResourceNotFoundException;
-import com.n21.finance.model.Tuition;
-import com.n21.finance.model.TuitionStatus;
-import com.n21.finance.repository.TuitionRepository;
 
 @ExtendWith(MockitoExtension.class)
 class TuitionServiceTest {

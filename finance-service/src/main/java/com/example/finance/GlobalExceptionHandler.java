@@ -1,4 +1,4 @@
-package com.n21.finance.exception;
+package com.example.finance;
 
 import java.util.Map;
 import java.util.stream.Collectors;

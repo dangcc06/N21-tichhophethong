@@ -1,4 +1,4 @@
-package com.n21.finance.dto;
+package com.example.finance;
 
 import java.math.BigDecimal;
 

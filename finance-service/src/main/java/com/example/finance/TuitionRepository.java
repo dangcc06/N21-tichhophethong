@@ -1,9 +1,6 @@
-package com.n21.finance.repository;
+package com.example.finance;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.n21.finance.model.Tuition;
-import com.n21.finance.model.TuitionStatus;
 
 public interface TuitionRepository extends JpaRepository<Tuition, Long> {
 

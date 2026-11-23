@@ -1,18 +1,10 @@
-package com.n21.finance.service;
+package com.example.finance;
 
 import java.math.BigDecimal;
 import java.util.List;
 
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
-
-import com.n21.finance.dto.CreateTuitionRequest;
-import com.n21.finance.dto.TuitionStatistics;
-import com.n21.finance.exception.DuplicateResourceException;
-import com.n21.finance.exception.ResourceNotFoundException;
-import com.n21.finance.model.Tuition;
-import com.n21.finance.model.TuitionStatus;
-import com.n21.finance.repository.TuitionRepository;
 
 @Service
 public class TuitionService {

@@ -1,4 +1,4 @@
-package com.n21.finance.model;
+package com.example.finance;
 
 import java.math.BigDecimal;
 

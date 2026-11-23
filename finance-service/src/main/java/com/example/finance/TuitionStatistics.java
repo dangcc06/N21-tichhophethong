@@ -1,4 +1,4 @@
-package com.n21.finance.dto;
+package com.example.finance;
 
 public record TuitionStatistics(
         long totalRecords,

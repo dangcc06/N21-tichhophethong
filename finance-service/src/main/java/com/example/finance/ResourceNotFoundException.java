@@ -1,4 +1,4 @@
-package com.n21.finance.exception;
+package com.example.finance;
 
 public class ResourceNotFoundException extends RuntimeException {
 

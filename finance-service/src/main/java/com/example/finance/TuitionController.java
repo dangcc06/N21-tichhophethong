@@ -1,4 +1,4 @@
-package com.n21.finance.controller;
+package com.example.finance;
 
 import java.util.List;
 
@@ -14,12 +14,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.n21.finance.dto.CreateTuitionRequest;
-import com.n21.finance.dto.TuitionStatistics;
-import com.n21.finance.dto.UpdatePaidAmountRequest;
-import com.n21.finance.model.Tuition;
-import com.n21.finance.service.TuitionService;
 
 @RestController
 @RequestMapping("/api/tuition")
